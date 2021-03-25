@@ -1,0 +1,30 @@
+{
+  "name": "@ldiebold/vuex-orm-rest",
+  "version": "1.0.2",
+  "description": "A vuex-orm plugin that allows all models to access a restful api",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "watch": "babel --watch src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ldiebold/vuex-orm-rest.git"
+  },
+  "author": "Agripath Team",
+  "license": "ISC",
+  "homepage": "https://github.com/ldiebold/vuex-orm-rest",
+  "dependencies": {
+    "qs": "^6.9.4"
+  },
+  "peerDependencies": {
+    "axios": "^0.21.0",
+    "dayjs": "1.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
